@@ -1,3 +1,7 @@
 # verafin-project
-hi
-liam fix your hair lmao
+
+from guizero import App
+
+app=App(title="Custom PacMan")
+
+app.display()
