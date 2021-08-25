@@ -132,3 +132,130 @@ choice = input('select your category').lower()
 if choice == "dc":
     DC_Quiz()
 
+
+--------------------------------------------------------
+
+Score = 0
+
+mvanswer1 = input("What colour is the time stone? ").lower()
+if mvanswer1 == ("green"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer2 = input("in the first captain american movie who is the leader of hydra? ").lower()
+if mvanswer2 == ("red scull"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer3 = input("what is hawk eyes real name (first and last name)? ").lower()
+if mvanswer3 == ("clint barton"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer4 = input("who is tony starks wife (first and last name)? ").lower()
+if mvanswer4 == ("pepper potts"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer5 = input("who did thanos sacrifice to gain the soul stone? ").lower()
+if mvanswer5 == ("gamora"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer6 = input("what city does spiderman live in? ").lower()
+if mvanswer6 == ("queens"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer7 = input("where is the home of black panther? ").lower()
+if mvanswer7 == ("wakanda"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer8 = input("who is the scavenger who can control an arrow with his whistle? ").lower()
+if mvanswer8 == ("yando"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer9 = input("what is captain americas shield made out of? ").lower()
+if mvanswer9 == ("vibrainium"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer10 = input("what is the name of thor's hammers? ").lower()
+if mvanswer10 == ("mjolnir"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer11 = input("who is thor's sister (first name)? ").lower()
+if mvanswer11 == ("hella"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer12 = input("what villain does russell aka fire fist team up with in jail? ").lower()
+if mvanswer12 == ("juggernaut"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer13 = input("morgan is the daughter of which hero (first and last name? ").lower()
+if mvanswer13 == ("tony stark"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer14 = input("who is the big tree hero? ").lower()
+if mvanswer14 == ("groot"):
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer15 = input("Who is wanda's brother(First Name)? ").lower()
+if mvanswer15 == "pietro":
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer16 = input("What is the gamer tag of the person thor was playing fortnite with? ").lower()
+if mvanswer16 == "noobmaster69":
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer17 = input("Who is the pink woman who lives in the bottom of peter quills ship(First Name)? ").lower()
+if mvanswer17 == "bereet":
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer18 = input("ant man shrinks using what partial? ").lower()
+if mvanswer18 == "pym":
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer19 = input("Who was the person who killed the king of wakanda(First Name)? ").lower()
+if mvanswer19 == "zemo":
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+mvanswer20 = input("Where does doctor strange go to cure his shaky hands? ").lower()
+if mvanswer20 == "kamar taj":
+    print("CORRECT")
+    Score += 1
+else: print("INCORRECT")
+
+EndCorrect = Score * 5
+print(f"You got {Score}/20 and got a {EndCorrect}% in the Marvel category")
